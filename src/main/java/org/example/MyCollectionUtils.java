@@ -11,9 +11,9 @@ public class MyCollectionUtils {
             for (final Iterator<T> it = collection.iterator(); it.hasNext();) {
                 var item = it.next();
 
-                if (item == null) {
-                    continue;
-                }
+//                if (item == null) {
+//                    continue;
+//                }
 
                 if (!predicate.evaluate(item)) {
                     it.remove();
